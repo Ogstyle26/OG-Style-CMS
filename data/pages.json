@@ -1,25 +1,25 @@
 {
   "home": {
-    "kicker": "OG STYLE · FURNITURE RESTYLING",
-    "hero_title": "Dare nuova vita",
     "hero_emphasis": "alle cose belle.",
-    "hero_text": "Recuperiamo mobili e oggetti, trasformandoli in pezzi unici attraverso colore, creatività e cura dei dettagli.",
-    "hero_image": "assets/madia-dopo.jpeg",
+    "approach_title": "Non copriamo la storia.|La trasformiamo.",
+    "about_label": "OG STYLE",
     "featured_label": "IN EVIDENZA",
+    "approach_text": "Ogni superficie viene studiata, preparata e reinterpretata. Colori, texture, stencil, dettagli e finiture diventano parte di una nuova identità.",
+    "about_title": "Ogni oggetto|è unico.",
     "featured_title": "Restyling su misura",
     "creations_label": "LE NOSTRE CREAZIONI",
-    "creations_title": "Oggetti con|una nuova storia.",
-    "creations_text": "Dal mobile da recuperare al pezzo finito: ogni progetto nasce da un'idea diversa e viene realizzato con lavorazioni artigianali.",
-    "approach_label": "IL NOSTRO APPROCCIO",
-    "approach_title": "Non copriamo la storia.|La trasformiamo.",
-    "approach_text": "Ogni superficie viene studiata, preparata e reinterpretata. Colori, texture, stencil, dettagli e finiture diventano parte di una nuova identità.",
-    "about_label": "OG STYLE",
-    "about_title": "Ogni oggetto|è unico.",
     "about_quote": "“Un mobile non deve essere nuovo per tornare a essere speciale.”",
-    "about_text": "OG Style nasce dalla passione per il recupero creativo: dare una seconda vita a mobili e complementi, mantenendo il carattere dell'oggetto e portandolo in un ambiente contemporaneo.",
+    "contact_text": "Hai un mobile da trasformare o vuoi conoscere i pezzi disponibili?",
+    "creations_title": "Oggetti con|una nuova storia.",
+    "hero_text": "Recuperiamo mobili e oggetti, trasformandoli in pezzi unici attraverso colore, creatività e cura dei dettagli.",
+    "kicker": "OG STYLE · FURNITURE RESTYLING",
+    "hero_title": "Dare nuova vita",
     "contact_label": "HAI UN PROGETTO?",
+    "hero_image": "assets/madia-dopo.jpeg",
+    "creations_text": "Dal mobile da recuperare al pezzo finito: ogni progetto nasce da un'idea diversa e viene realizzato con lavorazioni artigianali.",
     "contact_title": "Parliamone|insieme.",
-    "contact_text": "Hai un mobile da trasformare o vuoi conoscere i pezzi disponibili?"
+    "approach_label": "IL NOSTRO APPROCCIO",
+    "about_text": "OG Style nasce dalla passione per il recupero creativo: dare una seconda vita a mobili e complementi, mantenendo il carattere dell'oggetto e portandolo in un ambiente contemporaneo."
   },
   "restauro": {
     "label": "IL NOSTRO METODO",
@@ -42,15 +42,15 @@
     "inspiration_text": "Dalle superfici materiche ai dettagli dorati, fino alle decorazioni più artistiche: ogni progetto può avere un linguaggio diverso."
   },
   "contacts": {
+    "instagram_label": "@ogstyle2025 ↗",
+    "whatsapp_label": "Scrivici ↗",
+    "zone": "Emilia-Romagna",
+    "text": "Per informazioni sui lavori, per vedere un mobile disponibile o per chiedere un preventivo di restyling, scrivici.",
+    "whatsapp": "---",
+    "instagram": "https://www.instagram.com/ogstyle2025/",
     "label": "CONTATTI",
     "title": "Hai un mobile?|Parliamone.",
-    "text": "Per informazioni sui lavori, per vedere un mobile disponibile o per chiedere un preventivo di restyling, scrivici.",
-    "instagram": "https://www.instagram.com/ogstyle2025/",
-    "instagram_label": "@ogstyle2025 ↗",
-    "whatsapp": "https://wa.me/",
-    "whatsapp_label": "Scrivici ↗",
-    "email": "info@ogstyle.it",
-    "zone": "Emilia-Romagna"
+    "email": "ombretta.ogstyle@gmail.com"
   },
   "settings": {
     "site_name": "OG Style",
