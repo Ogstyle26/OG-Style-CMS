@@ -1,0 +1,13 @@
+{
+  "items": [
+    {"image":"assets/madia-dopo.jpeg","badge":"MADIA","title":"Restyling materico","description":"Nuova finitura e dettagli decorativi.","large":true},
+    {"image":"assets/madia-prima.jpeg","badge":"PRIMA","title":"Il punto di partenza","description":"","large":false},
+    {"image":"assets/madia-dettaglio.jpeg","badge":"DETTAGLIO","title":"Texture del piano","description":"","large":false},
+    {"image":"assets/comodino-prima-dopo.jpeg","badge":"PRIMA / DOPO","title":"Piccoli mobili, grandi cambiamenti","description":"","large":false},
+    {"image":"assets/camino-dopo.jpeg","badge":"AMBIENTI","title":"Restyling del camino","description":"","large":false},
+    {"image":"assets/armadio-prima.jpeg","badge":"RECUPERO","title":"Un nuovo inizio","description":"","large":false},
+    {"image":"assets/quadro-dettaglio.jpeg","badge":"DECORO","title":"Arte e superficie","description":"","large":false},
+    {"image":"assets/quadro-dettaglio-oro.jpeg","badge":"DETTAGLI","title":"Finiture dorate","description":"","large":false},
+    {"image":"assets/quadro-in-lavorazione.jpeg","badge":"WORK IN PROGRESS","title":"Dietro le quinte","description":"","large":false}
+  ]
+}

@@ -1,0 +1,104 @@
+backend:
+  name: github
+  repo: YOUR_GITHUB_USERNAME/ogstyle
+  branch: main
+
+media_folder: "assets/uploads"
+public_folder: "/assets/uploads"
+site_url: "https://YOUR-SITE.netlify.app"
+locale: "it"
+
+collections:
+  - name: "content"
+    label: "Contenuti sito"
+    files:
+      - label: "Pagine e impostazioni"
+        name: "pages"
+        file: "data/pages.json"
+        format: "json"
+        fields:
+          - label: "Home"
+            name: "home"
+            widget: "object"
+            fields:
+              - {label: "Kicker", name: "kicker", widget: "string"}
+              - {label: "Titolo principale", name: "hero_title", widget: "string"}
+              - {label: "Titolo evidenziato", name: "hero_emphasis", widget: "string"}
+              - {label: "Testo principale", name: "hero_text", widget: "text"}
+              - {label: "Foto principale", name: "hero_image", widget: "image"}
+              - {label: "Etichetta in evidenza", name: "featured_label", widget: "string"}
+              - {label: "Titolo in evidenza", name: "featured_title", widget: "string"}
+              - {label: "Etichetta creazioni", name: "creations_label", widget: "string"}
+              - {label: "Titolo creazioni", name: "creations_title", widget: "text", hint: "Usa | per andare a capo."}
+              - {label: "Testo creazioni", name: "creations_text", widget: "text"}
+              - {label: "Etichetta approccio", name: "approach_label", widget: "string"}
+              - {label: "Titolo approccio", name: "approach_title", widget: "text", hint: "Usa | per andare a capo."}
+              - {label: "Testo approccio", name: "approach_text", widget: "text"}
+              - {label: "Etichetta chi siamo", name: "about_label", widget: "string"}
+              - {label: "Titolo chi siamo", name: "about_title", widget: "text", hint: "Usa | per andare a capo."}
+              - {label: "Citazione", name: "about_quote", widget: "text"}
+              - {label: "Testo chi siamo", name: "about_text", widget: "text"}
+              - {label: "Etichetta contatto", name: "contact_label", widget: "string"}
+              - {label: "Titolo contatto", name: "contact_title", widget: "text", hint: "Usa | per andare a capo."}
+              - {label: "Testo contatto", name: "contact_text", widget: "text"}
+          - label: "Il restauro"
+            name: "restauro"
+            widget: "object"
+            fields:
+              - {label: "Etichetta", name: "label", widget: "string"}
+              - {label: "Titolo", name: "title", widget: "text", hint: "Usa | per andare a capo."}
+              - {label: "Introduzione", name: "intro", widget: "text"}
+              - {label: "Etichetta lavorazione", name: "work_label", widget: "string"}
+              - {label: "Titolo lavorazione", name: "work_title", widget: "text", hint: "Usa | per andare a capo."}
+              - {label: "Testo lavorazione", name: "work_text", widget: "text"}
+              - {label: "Etichetta prima/dopo", name: "before_label", widget: "string"}
+              - {label: "Titolo prima/dopo", name: "before_title", widget: "text", hint: "Usa | per andare a capo."}
+          - label: "Chi siamo"
+            name: "about"
+            widget: "object"
+            fields:
+              - {label: "Etichetta", name: "label", widget: "string"}
+              - {label: "Titolo", name: "title", widget: "text", hint: "Usa | per andare a capo."}
+              - {label: "Citazione", name: "quote", widget: "text"}
+              - {label: "Primo testo", name: "text1", widget: "text"}
+              - {label: "Secondo testo", name: "text2", widget: "text"}
+              - {label: "Etichetta ispirazioni", name: "inspiration_label", widget: "string"}
+              - {label: "Titolo ispirazioni", name: "inspiration_title", widget: "text", hint: "Usa | per andare a capo."}
+              - {label: "Testo ispirazioni", name: "inspiration_text", widget: "text"}
+          - label: "Contatti"
+            name: "contacts"
+            widget: "object"
+            fields:
+              - {label: "Etichetta", name: "label", widget: "string"}
+              - {label: "Titolo", name: "title", widget: "text", hint: "Usa | per andare a capo."}
+              - {label: "Testo", name: "text", widget: "text"}
+              - {label: "Link Instagram", name: "instagram", widget: "string"}
+              - {label: "Testo Instagram", name: "instagram_label", widget: "string"}
+              - {label: "Link WhatsApp", name: "whatsapp", widget: "string"}
+              - {label: "Testo WhatsApp", name: "whatsapp_label", widget: "string"}
+              - {label: "Email", name: "email", widget: "string"}
+              - {label: "Zona", name: "zone", widget: "string"}
+          - label: "Impostazioni generali"
+            name: "settings"
+            widget: "object"
+            fields:
+              - {label: "Nome sito", name: "site_name", widget: "string"}
+              - {label: "Riga footer", name: "tagline", widget: "string"}
+              - {label: "Frase footer", name: "footer_text", widget: "string"}
+              - {label: "Logo", name: "logo", widget: "image"}
+
+      - label: "Portfolio / Mobili"
+        name: "portfolio"
+        file: "data/portfolio.json"
+        format: "json"
+        fields:
+          - label: "Lavori"
+            name: "items"
+            widget: "list"
+            summary: "{{badge}} — {{title}}"
+            fields:
+              - {label: "Foto", name: "image", widget: "image"}
+              - {label: "Etichetta", name: "badge", widget: "string"}
+              - {label: "Titolo", name: "title", widget: "string"}
+              - {label: "Descrizione", name: "description", widget: "text", required: false}
+              - {label: "Riquadro grande", name: "large", widget: "boolean", default: false}
